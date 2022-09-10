@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salary</title>
+</head>
+<body>
+   <script>
+
+    class income{
+        constructor(income)
+        {
+            this.income = income;
+        }
+        salary_details(){
+            if(this.income=="IT"){
+                var salary = 65000;
+                var bonus = salary * (50/100);
+                var newSalary = salary+bonus;
+                console.log(salary);
+                console.log(newSalary);
+            }
+            else if(this.income=="Testing")
+            {
+                var salary = 40000;
+                var bonus = salary * (45/100);
+                var newSalary = salary+bonus;
+                console.log(salary);
+                console.log(newSalary);
+            }
+            else if(this.income=="ADMIN")
+            {
+                var salary = 38000;
+                var bonus = salary * (45/100);
+                var newSalary = salary+bonus;
+                console.log(salary);
+                console.log(newSalary);
+            }
+            else
+            {
+                var salary = 30000;
+                var bonus = salary * (20/100);
+                var newSalary = salary+bonus;
+                console.log(salary);
+                console.log(newSalary);
+            }
+        }
+    }
+    var o1 = new income("ADMIN");
+    o1.salary_details();
+   </script> 
+</body>
+</html>

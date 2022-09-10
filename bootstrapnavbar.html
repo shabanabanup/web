@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://kit.fontawesome.com/6aaea7143a.js" crossorigin="anonymous"></script>
+  <style>
+  /* Make the image fully responsive */
+  .carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+  </style>
+</head>
+<body>
+   
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="javascript:void(0)">Band</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="mynavbar">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="javascript:void(0)">music</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="javascript:void(0)">link</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="javascript:void(0)">Link</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="text" placeholder="Search">
+              <button class="btn btn-primary" type="button">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      
+      <div class="container-fluid mt-3">
+        <h3>Music Band</h3>
+        <p>Music gives you wings</p>
+      </div>
+
+<div id="demo" class="carousel slide" data-ride="carousel">
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://www.designhill.com/design-blog/wp-content/uploads/2020/10/Top-10-Ways-To-Promote-Your-Music-Band-In-2022.jpg" alt="Los Angeles" width="20" height="20">
+      <div class="carousel-caption">
+        <h3>Los Angeles</h3>
+        <p>We had such a great time in LA!</p>
+      </div>   
+    </div>
+    <div class="carousel-item">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/3/3d/Mary_Timony_Plays_Helium_with_Hospitality.jpg" alt="Chicago" width="20" height="20">
+      <div class="carousel-caption">
+        <h3>Chicago</h3>
+        <p>Thank you, Chicago!</p>
+      </div>   
+    </div>
+    <div class="carousel-item">
+      <img src="https://i.insider.com/5bad1be2e55aa8fa0e8b4567?width=700" alt="New York" width="20" height="20">
+      <div class="carousel-caption">
+        <h3>New York</h3>
+        <p>We love the Big Apple!</p>
+      </div>   
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+<div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col">
+      <div class="card h-100">
+        <img src="https://wp.missmalini.com/wp-content/uploads/2018/01/Ed-Sheeran-1.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Ed Sheeran</h5>
+          <p class="card-text">English artist Ed Sheeran is a Grammy-winning singer/songwriter known for hit songs like 'Thinking Out Loud,' 'Photograph,' 'Shape of You' and 'Perfect.</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Last updated 3 mins ago</small>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="https://dailymusicroll.s3.us-west-2.amazonaws.com/wp-content/uploads/2019/12/27124120/Ariana-Grande-2.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Ariana Grande</h5>
+          <p class="card-text">Why is Ariana Grande so popular?
+            She's the most listened-to female artist on both Spotify and Apple Music.</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Last updated 3 mins ago</small>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="https://www.liveabout.com/thmb/z1AAGMmpNEarkcS7s524E8Oz_8c=/650x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/justin-bieber-56a96cf43df78cf772a6ddc7.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Justin Drew Bieber</h5>
+          <p class="card-text">Justin Drew Bieber is a Canadian singer. Bieber is widely recognized for his genre-melding musicianship and has played an influential role in modern-day</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Last updated 3 mins ago</small>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
